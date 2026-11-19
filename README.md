@@ -21,7 +21,7 @@
 9. Find the top 3 highest-paid employees in each department
 10. Find employees whose salary is greater than the average salary of 
 	their respective department
-
+11. Find the department with the highest average salary
 
 
 ====================================================================
