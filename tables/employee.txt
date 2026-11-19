@@ -21,6 +21,19 @@ INSERT INTO employee (emp_name, dept_id, salary, manager_id) VALUES ('Smith', 13
 INSERT INTO employee (emp_name, dept_id, salary, manager_id) VALUES ('Raj', 15, 40000, 105);
 INSERT INTO employee (emp_name, dept_id, salary, manager_id) VALUES ('Kumar', 14, 60000, 105);
 
+=============================================================================================
+
+UPDATE employee
+SET manager_id = 8
+WHERE emp_id IN (4, 5, 10, 11);
+
+UPDATE employee
+SET manager_id = 9
+WHERE emp_id IN (6, 7);
+
+=============================================================================================
+
+commit;
 
 =============================================================================================
 
@@ -29,9 +42,5 @@ INSERT INTO employee (emp_name, dept_id, salary, manager_id) VALUES ('Kumar', 14
 select * from employee;
 
 select * from department;
-
-=============================================================================================
-
-commit;
 
 =============================================================================================

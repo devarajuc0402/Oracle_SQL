@@ -20,6 +20,7 @@ from (select e.*,
 )
 group by dept_id;
 
+// max salary of each department
 select *
 from (select e.*,
 	DENSE_RANK() OVER (
@@ -29,3 +30,14 @@ from (select e.*,
 	from employee e
 )
 where rnk = 1;
+
+// second max salary of each department
+select *
+from (select e.*,
+	DENSE_RANK() OVER (
+		partition by e.dept_id
+		order by e.salary desc
+	) as rnk
+	from employee e
+)
+where rnk = 2;
