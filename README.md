@@ -16,5 +16,7 @@
 4. Find employees earn more than his manager salary using self join
 5. Find employees who don't have a manager
 6. Find departments without employees
+7. Find duplicate salaries and display how many employees receive each salary
+8. Find duplicate employee records
 
 ====================================================================

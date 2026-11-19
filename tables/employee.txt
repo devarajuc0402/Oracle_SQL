@@ -12,7 +12,7 @@ CREATE TABLE employee (
 INSERT INTO employee (emp_name, dept_id, salary, manager_id)
 VALUES ('test', 10, 1, 1);
 
-INSERT INTO employee (emp_name, dept_id, salary, manager_id) VALUES ('Arun', 13, 50000, 105);
+INSERT INTO employee (emp_name, dept_id, salary, manager_id) VALUES ('Arun', 13, 50000, 9);
 INSERT INTO employee (emp_name, dept_id, salary, manager_id) VALUES ('Ravi', 14, 60000, 105);
 INSERT INTO employee (emp_name, dept_id, salary, manager_id) VALUES ('Kiran', 13, 70000, 106);
 INSERT INTO employee (emp_name, dept_id, salary, manager_id) VALUES ('John', 15, 40000, 106);
