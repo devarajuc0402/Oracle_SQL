@@ -1,0 +1,37 @@
+
+CREATE TABLE employee (
+    emp_id NUMBER GENERATED ALWAYS AS IDENTITY START WITH 1 INCREMENT BY 1 PRIMARY KEY,
+    emp_name VARCHAR2(50) NOT NULL,
+    dept_id number not null,
+    salary number,
+    manager_id number not null
+);
+
+=============================================================================================
+
+INSERT INTO employee (emp_name, dept_id, salary, manager_id)
+VALUES ('test', 10, 1, 1);
+
+INSERT INTO employee (emp_name, dept_id, salary, manager_id) VALUES ('Arun', 13, 50000, 105);
+INSERT INTO employee (emp_name, dept_id, salary, manager_id) VALUES ('Ravi', 14, 60000, 105);
+INSERT INTO employee (emp_name, dept_id, salary, manager_id) VALUES ('Kiran', 13, 70000, 106);
+INSERT INTO employee (emp_name, dept_id, salary, manager_id) VALUES ('John', 15, 40000, 106);
+INSERT INTO employee (emp_name, dept_id, salary, manager_id) VALUES ('David', 14, 90000, NULL);
+INSERT INTO employee (emp_name, dept_id, salary, manager_id) VALUES ('Smith', 13, 80000, NULL);
+INSERT INTO employee (emp_name, dept_id, salary, manager_id) VALUES ('Raj', 15, 40000, 105);
+INSERT INTO employee (emp_name, dept_id, salary, manager_id) VALUES ('Kumar', 14, 60000, 105);
+
+
+=============================================================================================
+
+1. show all employees and department:
+
+select * from employee;
+
+select * from department;
+
+=============================================================================================
+
+commit;
+
+=============================================================================================

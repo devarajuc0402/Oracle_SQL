@@ -1,0 +1,19 @@
+
+CREATE TABLE department (
+    dept_id NUMBER GENERATED ALWAYS AS IDENTITY START WITH 1 INCREMENT BY 1 PRIMARY KEY,
+    dept_name VARCHAR2(50) NOT NULL
+);
+
+commit;
+
+=============================================================================================
+
+INSERT INTO department (dept_name)
+VALUES ('test');
+
+INSERT INTO department (dept_name) VALUES ('IT');
+INSERT INTO department (dept_name) VALUES ('HR');
+INSERT INTO department (dept_name) VALUES ('Finance');
+INSERT INTO department (dept_name) VALUES ('Sales');
+
+=============================================================================================
