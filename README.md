@@ -18,5 +18,10 @@
 6. Find departments without employees
 7. Find duplicate salaries and display how many employees receive each salary
 8. Find duplicate employee records
+9. Find the top 3 highest-paid employees in each department
+10. Find employees whose salary is greater than the average salary of 
+	their respective department
+
+
 
 ====================================================================
