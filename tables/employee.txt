@@ -23,6 +23,15 @@ INSERT INTO employee (emp_name, dept_id, salary, manager_id) VALUES ('Kumar', 14
 
 =============================================================================================
 
+alter table employee
+add hire_date date;
+
+UPDATE employee
+SET hire_date = to_date('15-MAR-2021', 'DD-MM-YYYY')
+WHERE emp_name = 'Ravi';
+
+=============================================================================================
+
 UPDATE employee
 SET manager_id = 8
 WHERE emp_id IN (4, 5, 10, 11);

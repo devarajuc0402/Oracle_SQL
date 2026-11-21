@@ -25,6 +25,7 @@
 12. Employees has same salary
 13. Find the department with the second-highest average salary
 14. Find the department with the second-highest average salary
+15. Find employees who joined the company before their managers
 
 
 ====================================================================
