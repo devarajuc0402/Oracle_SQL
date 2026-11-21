@@ -24,6 +24,7 @@
 11. Find the department with the highest average salary
 12. Employees has same salary
 13. Find the department with the second-highest average salary
+14. Find the department with the second-highest average salary
 
 
 ====================================================================
