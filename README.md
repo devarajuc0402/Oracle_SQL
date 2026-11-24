@@ -29,6 +29,8 @@
 16. Find employees whose salary is greater than their manager's salary
 17. Find employees who belong to the same department and earn the same salary
 18. Find the employees with the highest salary in each department, including ties
+19. Find the third-highest distinct salary in each department
+20. Find the department with the maximum number of employees
 
 
 ====================================================================
