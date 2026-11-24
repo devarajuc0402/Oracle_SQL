@@ -31,6 +31,9 @@
 18. Find the employees with the highest salary in each department, including ties
 19. Find the third-highest distinct salary in each department
 20. Find the department with the maximum number of employees
+21. Find employees who earn more than the average salary of the entire company
+22. Find the second-highest salary in each department without using DENSE_RANK()
+23. Employee name along with the second-highest salary in each department
 
 
 ====================================================================
