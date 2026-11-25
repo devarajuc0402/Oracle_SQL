@@ -34,6 +34,7 @@
 21. Find employees who earn more than the average salary of the entire company
 22. Find the second-highest salary in each department without using DENSE_RANK()
 23. Employee name along with the second-highest salary in each department
+24. Find employees who do not belong to any department
 
 
 ====================================================================
