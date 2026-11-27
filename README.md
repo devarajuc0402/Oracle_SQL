@@ -37,5 +37,7 @@
 24. Find employees who do not belong to any department
 25. Find departments where the average salary is greater than the company's overall average salary
 26. Find employees earning the highest salary in the entire company without using MAX()
+27. Find employees whose salary is higher than at least one employee in the HR department
+27. Find employees whose salary is higher than all employee in the HR department
 
 ====================================================================
