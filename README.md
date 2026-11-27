@@ -36,6 +36,6 @@
 23. Employee name along with the second-highest salary in each department
 24. Find employees who do not belong to any department
 25. Find departments where the average salary is greater than the company's overall average salary
-
+26. Find employees earning the highest salary in the entire company without using MAX()
 
 ====================================================================
