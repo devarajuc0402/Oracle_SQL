@@ -41,6 +41,7 @@
 27. Find employees whose salary is higher than all employee in the HR department
 28. Count vowels in a string
 29. Print vowel character and count & along with display each character vowel & count
-30. Find employees earning less than at least one employee in HR
+30. Find employees earning less than at least one employee in HR - any
+31. Find employees earning less than every employee in HR - all
 
 ====================================================================
